@@ -1,14 +1,11 @@
+import React from "react"
+import Header from "./Componente/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        
-      </div>
-    </>
-  )
+    <div className="App">
+      <Header/>
+    </div>
+  );
 }
-
 export default App
