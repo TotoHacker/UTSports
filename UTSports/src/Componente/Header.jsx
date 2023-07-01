@@ -1,16 +1,21 @@
 import React from "react";
-import './header.css'
 function Header() {
     return (
-        <nav>
-            <div className="nav-wrapper light-blue darken-2">
-                <a href="#" className="brand-logo">Inicio</a>
-                <a href="#" className="brand-logo">Ventimenta</a>
-                <a href="#" className="brand-logo">Ropa</a>
-                <a href="#" className="brand-logo">Personalizados</a>
-                <a href="#" className="brand-logo">Contactonos</a>
+        <header>
+            <img className="Logo" src="Imagenes/Ut_Logo.png" alt="" />
+            <nav>
+            <div className="">
+                <a href="#" className="">Inicio</a>
+                <a href="#" className="">Ventimenta</a>
+                <a href="#" className="">Ropa</a>
+                <a href="#" className="">Personalizados</a>
+                <a href="#" className="">Contactonos</a>
+                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined">person</span>
             </div>
         </nav>
+        </header>
+        
     );
 }
 
