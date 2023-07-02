@@ -9,6 +9,7 @@ function Header() {
                 <a href="#" className="textH">Ventimenta</a>
                 <a href="#" className="textH">Ropa</a>
                 <a href="#" className="textH">Personalizados</a>
+                <a href="#" className="textH">Equipo Deportivo</a>
                 <a href="#" className="textH">Contactonos</a>
                 <span class="material-symbols-outlined">search</span>
                 <span class="material-symbols-outlined">person</span>

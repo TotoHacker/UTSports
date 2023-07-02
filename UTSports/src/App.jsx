@@ -8,7 +8,11 @@ function App() {
       <div className="ima">
         <img className="imgpre" src="imagenes/carrera.jpg" alt="" />
       </div>
-  
+      <div className="conten">
+        <div className="catalogo"></div>
+        <div className="catalogo"></div>
+        <div className="catalogo"></div>
+      </div>
       <Footer/>
     </div>
   );
