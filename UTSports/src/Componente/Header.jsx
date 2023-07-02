@@ -11,8 +11,8 @@ function Header() {
                 <a href="#" className="textH">Personalizados</a>
                 <a href="#" className="textH">Equipo Deportivo</a>
                 <a href="#" className="textH">Contactonos</a>
-                <span class="material-symbols-outlined">search</span>
-                <span class="material-symbols-outlined">person</span>
+                <span className="material-symbols-outlined iconHea">search</span>
+                <span className="material-symbols-outlined iconHea">person</span>
             </div>
         </nav>
         </header>
