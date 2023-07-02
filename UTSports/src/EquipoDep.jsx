@@ -11,34 +11,51 @@ function App() {
       <h1>Equipo Deportivo</h1>
       <div className="conten">
         <div className="catalogo">
-          <img src="" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
         <div className="catalogo">
-          <img src="" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
         <div className="catalogo">
-          <img src="imagenes/Logo.png" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
       </div>
       <div className="conten">
         <div className="catalogo">
-          <img src="imagenes/Logo.png" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
         <div className="catalogo">
-          <img src="imagenes/Logo.png" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
         <div className="catalogo">
-          <img src="imagenes/Logo.png" alt="" />
+          <img  className="ImgCat"src="Imagenes/Ut_Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+      </div>
+      <div className="conten">
+        <div className="catalogo">
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img  className="ImgCat"src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>

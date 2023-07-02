@@ -55,6 +55,13 @@ opacity:0.7;
 .ima{
     height: 40vw;  
 }
+.ImgCat{
+    position: relative;
+    width: 20vw;
+    height: 14vw;
+    left: 15%;
+    top: 3%;
+}
 .catalogo{
     position: relative;
     background-color: white;
@@ -66,6 +73,7 @@ opacity:0.7;
     height: 20vw;
     margin: 3vw;
     left: 7vw;
+    text-align: center;
 }
 /*Footer sccs*/
 footer{
