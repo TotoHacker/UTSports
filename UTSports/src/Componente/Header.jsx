@@ -5,11 +5,11 @@ function Header() {
             <img className="Logo" src="Imagenes/Ut_Logo.png" alt="" />
             <nav>
             <div className="">
-                <a href="#" className="">Inicio</a>
-                <a href="#" className="">Ventimenta</a>
-                <a href="#" className="">Ropa</a>
-                <a href="#" className="">Personalizados</a>
-                <a href="#" className="">Contactonos</a>
+                <a href="#" className="textH">Inicio</a>
+                <a href="#" className="textH">Ventimenta</a>
+                <a href="#" className="textH">Ropa</a>
+                <a href="#" className="textH">Personalizados</a>
+                <a href="#" className="textH">Contactonos</a>
                 <span class="material-symbols-outlined">search</span>
                 <span class="material-symbols-outlined">person</span>
             </div>
