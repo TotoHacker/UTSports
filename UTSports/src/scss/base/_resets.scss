@@ -11,6 +11,12 @@ li {
 a{
     text-decoration: none;
 }
+h1{
+    position: relative;
+    font-family: var(--font-footer);
+    left: 37vw;
+    width: 50vw;
+}
 button {
     background-color: none;
     border: none;
@@ -44,10 +50,22 @@ position: relative;
  height: 30vw;
  top: 130px;
 left: 4.6vw;
-opacity:0.8;
+opacity:0.7;
 }
 .ima{
     height: 40vw;  
+}
+.catalogo{
+    position: relative;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(190, 190, 190);
+    width: 300px;
+    height: 20vw;
+    margin: 3vw;
+    left: 7vw;
 }
 /*Footer sccs*/
 footer{
@@ -60,7 +78,6 @@ footer{
 }
 
 .conten{
-    display: flex;
     display: flex;
 }
 .textH{
