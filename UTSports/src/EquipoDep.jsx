@@ -43,9 +43,9 @@ function App() {
           <p className="preciopr">Precio Producto</p>
         </div>
       </div>
-      <div className="conten">
+      <div className="conten" >
         <div className="catalogo">
-          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
+          <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt=""/>
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
         </div>
