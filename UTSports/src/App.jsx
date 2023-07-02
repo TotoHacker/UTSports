@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div>
+      <div className="ima">
         <img className="imgpre" src="imagenes/carrera.jpg" alt="" />
       </div>
-      
+  
       <Footer/>
     </div>
   );
