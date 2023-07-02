@@ -14,12 +14,27 @@ header{
     background-color: aqua;
     left: 2.5vw;
 }
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    top: 100%;
+}
 a{
-    position: relative;
     text-decoration: none;
+}
+.textH{
+    position: relative;
     padding: .5vw;
     left: 20%;
     top: 20px;
+}
+.textF{
+    position:relative;
+    padding: .5vw;
+    font-family: calc(--font-footer);
+    color: rgb(0, 0, 0);
 }
 .Logo{
     position: fixed;
