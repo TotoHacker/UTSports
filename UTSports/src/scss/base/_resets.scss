@@ -20,9 +20,14 @@ footer{
     height: 100px;
     background-color: blue;
     top: 100%;
+    
 }
 a{
     text-decoration: none;
+}
+.conten{
+    display: flex;
+    display: flex;
 }
 .textH{
     position: relative;
@@ -31,10 +36,11 @@ a{
     top: 20px;
 }
 .textF{
-    position:relative;
-    padding: .5vw;
+    position: relative;
+    padding-left: 5vw;
     font-family: calc(--font-footer);
     color: rgb(0, 0, 0);
+    font-size: 1.5vw;
 }
 .Logo{
     position: fixed;
