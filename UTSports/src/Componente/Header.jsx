@@ -9,10 +9,11 @@ function Header() {
                 <a href="#" className="textH">Ventimenta</a>
                 <a href="#" className="textH">Ropa</a>
                 <a href="#" className="textH">Personalizados</a>
-                <a href="#" className="textH">Equipo Deportivo</a>
+                <a href="./index.html" className="textH">Equipo Deportivo</a>
                 <a href="#" className="textH">Contactonos</a>
-                <span className="material-symbols-outlined iconHea">search</span>
-                <span className="material-symbols-outlined iconHea">person</span>
+                <a href=""><span className="material-symbols-outlined iconHea">search</span></a>
+                <a href=""><span className="material-symbols-outlined iconHea">person</span> </a>
+                <a href=""><span class="material-symbols-outlined iconHea">shopping_cart</span></a>
             </div>
         </nav>
         </header>
