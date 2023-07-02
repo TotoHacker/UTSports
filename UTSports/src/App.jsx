@@ -8,10 +8,40 @@ function App() {
       <div className="ima">
         <img className="imgpre" src="imagenes/carrera.jpg" alt="" />
       </div>
+      <h1>Equipo Deportivo</h1>
       <div className="conten">
-        <div className="catalogo"></div>
-        <div className="catalogo"></div>
-        <div className="catalogo"></div>
+        <div className="catalogo">
+          <img src="" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img src="" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img src="imagenes/Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+      </div>
+      <div className="conten">
+        <div className="catalogo">
+          <img src="imagenes/Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img src="imagenes/Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
+        <div className="catalogo">
+          <img src="imagenes/Logo.png" alt="" />
+          <p className="nombrepr">Nombre Producto</p>
+          <p className="preciopr">Precio Producto</p>
+        </div>
       </div>
       <Footer/>
     </div>
