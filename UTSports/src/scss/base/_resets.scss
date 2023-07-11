@@ -12,15 +12,49 @@ a{
     text-decoration: none;
 }
 h1{
-    position: relative;
+    position:relative;
     font-family: var(--font-footer);
-    left: 37vw;
+    left: 34vw;
     width: 50vw;
 }
-button {
-    background-color: none;
-    border: none;
+.Paddin{
+    border-color: black;
+    border-style:solid;
+    padding-left: 15vw;
 }
+table{
+    position: relative;
+    left: 18.5vw;
+    width: 10vw;
+    color: black;
+    background-color: rgb(151, 149, 146);
+    
+}
+.PaddinCon{
+    border-color: rgb(255, 255, 255);
+    border-style:solid;
+    padding-left: 15vw;
+}
+.tablecon{
+    position: relative;
+    padding-left: 1vw;
+    left: 20vw;
+    width: 10vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(151, 149, 146);
+    
+}
+button {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    width: 10vw;
+    height: 3vw;
+    border: none;
+    border-radius: 5px;
+    font-family: calc(--fonts-title);
+    font-size: calc(--size);
+}
+
 .material-symbols-outlined {
     
   font-variation-settings:
@@ -86,6 +120,24 @@ opacity:0.7;
     left: 7%;
     text-align: center;
 }
+/*Carro de compras*/
+.carro{
+    position:relative;
+   width: 100%;
+   height: 100%;
+   top: 200px;
+   padding: 10px;
+}
+.volver{
+    position: relative;
+    left: 30vw;
+    margin: 4vw;
+    margin-top: 3vw;
+}
+.conten2{
+    position: relative;
+    top: 300px;
+}
 /*Footer sccs*/
 footer{
     position: relative;
@@ -99,6 +151,7 @@ footer{
 .conten{
     display: flex;
 }
+
 .textH{
     position: relative;
     padding: .5vw;

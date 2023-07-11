@@ -14,16 +14,19 @@ function App() {
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
       </div>
       <div className="conten">
@@ -31,16 +34,19 @@ function App() {
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img  className="ImgCat"src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
       </div>
       <div className="conten" >
@@ -48,16 +54,19 @@ function App() {
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt=""/>
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img className="ImgCat" src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
         <div className="catalogo">
           <img  className="ImgCat"src="Imagenes/Ut_Logo.png" alt="" />
           <p className="nombrepr">Nombre Producto</p>
           <p className="preciopr">Precio Producto</p>
+          <button>Añadir a carrito</button>
         </div>
       </div>
       <Footer/>

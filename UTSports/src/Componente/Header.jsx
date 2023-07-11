@@ -7,7 +7,6 @@ function Header() {
             <div className="">
                 <a href="#" className="textH">Inicio</a>
                 <a href="#" className="textH">Ventimenta</a>
-                <a href="#" className="textH">Ropa</a>
                 <a href="#" className="textH">Personalizados</a>
                 <a href="./index.html" className="textH">Equipo Deportivo</a>
                 <a href="#" className="textH">Contactonos</a>
