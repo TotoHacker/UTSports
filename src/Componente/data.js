@@ -5,6 +5,7 @@ export const data = [
 		nameProduct: 'Zapatos Nike',
 		price: 80,
 		quantity: 1,  
+		Pago:'https://buy.stripe.com/test_00g00kcAdexm3qE4gh',
 	},
 	{
 		id: 2,
@@ -12,6 +13,7 @@ export const data = [
 		nameProduct: 'Reloj',
 		price: 50,
 		quantity: 1,
+		Pago:'https://buy.stripe.com/test_eVa28sdEh2OE2mAfZ0',
 	},
 	{
 		id: 3,
@@ -19,6 +21,8 @@ export const data = [
 		nameProduct: 'Smartwatch',
 		price: 90,
 		quantity: 1,
+		Pago:'https://buy.stripe.com/test_6oE28s1Vz2OE5yMcMP',
+		Descripcion:'Este producto es bueno'
 	},
 	{
 		id: 4,
@@ -26,6 +30,7 @@ export const data = [
 		nameProduct: 'Perfume',
 		price: 50,
 		quantity: 1,
+		Pago:'https://buy.stripe.com/test_6oE14obw974U5yMaEI',
 	},
 	{
 		id: 5,
@@ -33,6 +38,7 @@ export const data = [
 		nameProduct: 'Audifonos',
 		price: 20,
 		quantity: 1,
+		Pago:'https://buy.stripe.com/test_8wMeVe6bPgFu4uI9AF',
 	},
 	// Aquí pueden agregar más o modificar los productos existentes
 ];

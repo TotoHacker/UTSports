@@ -1,0 +1,316 @@
+/*scss de obejetos generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+ li{
+    list-style: none;
+ }
+  
+  /*Header scss*/
+  header {
+    position: fixed; /* Establecer el header como posición fija */
+    width: 100%;
+    height: 130px;
+    background-color: rgb(98, 223, 148);
+    top: 0;
+    left: 0;
+    z-index: 100; /* Asegurar que el header se muestre por encima del contenido */
+  }
+  
+  /* Resto del código CSS... */
+  
+  .iconHea {
+    position: relative;
+    left: 25%;
+    top: 38px;
+    color: rgb(255, 255, 255);
+    font-size: 3.3vw;
+    padding: 1vw;
+  }
+  
+  .xd {
+    position: relative;
+    left: 0%;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vw;
+    padding: 4px;
+  }
+  
+  /* Estilo de la imagen de inicio */
+  .imgpre {
+    position: relative;
+    width: 90vw;
+    height: 30vw;
+    top: 130px;
+    left: 4.6vw;
+    opacity: 0.7;
+  }
+  /* Estilos del catálogo */
+  .ima {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 150px;
+  }
+  
+  .catalogo {
+    flex: 0 0 calc(33.33% - 30px); /* Ajustar el ancho de los productos y el espaciado */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .catalogo img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .nombrepr {
+    font-weight: bold;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .preciopr {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  /* Estilos del carro de compras */
+.carro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 200px;
+    padding: 10px;
+  }
+  
+  .volver {
+    position: relative;
+    left: 30vw;
+    margin: 4vw;
+    margin-top: 3vw;
+  }
+  
+  .conten2 {
+    position: relative;
+    top: 300px;
+  }
+  
+  /* Estilos del footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .conten-footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .textF {
+    margin: 10px;
+  }
+  
+  .textH {
+    position: relative;
+    padding: 0.5vw;
+    left: 20%;
+    top: 20px;
+  }
+  
+  .Logo {
+    position: fixed;
+    width: 17vw;
+    height: 9vw;
+    left: 4vw;
+  }
+  
+/*Iniio de sesion*/
+.Sesion {
+    margin-top: 200px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .Sesion h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .Sesion .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Sesion p {
+    margin: 0;
+    flex: 1;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .Sesion input {
+    flex: 3;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .Sesion button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .Sesion button:hover {
+    background-color: #0056b3;
+  }
+
+/* Estilos del contenedor de productos */
+.conten2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    margin-top: 150px;
+  }
+  
+  /* Estilos del producto */
+  .conten2 div {
+    flex: 0 0 calc(33.33% - 30px); /* Ajustar el ancho de los productos y el espaciado */
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  /* Estilo del nombre del producto */
+  .conten2 p {
+    font-weight: bold;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilo del precio del producto */
+  .conten2 p {
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos del botón "Añadir al carrito" */
+  .conten2 a {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    text-align: center;
+  }
+  
+  .conten2 a:hover {
+    background-color: #0056b3;
+  }
+  /*Carro*/
+  /* Carrito.css */
+.carrito {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .carrito h2 {
+    margin-bottom: 10px;
+  }
+  
+  .carrito ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carrito li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .carrito img {
+    max-width: 60px;
+  }
+  
+  .carrito button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
